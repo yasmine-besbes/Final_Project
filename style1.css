@@ -1,0 +1,235 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+    background-color: #37505C;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 70px;
+    color:#F2C14E;
+    padding: 50px;
+
+}
+#sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5em;
+}
+#games{
+    display: flex;
+    justify-content: space-between;
+    gap:30rem;
+    
+
+}
+#game1,
+#game2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:#F2C14E;
+    color: #333;
+    border-color:#F2C14E ;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+}
+button:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+}
+button a{
+    text-decoration: none;
+    color:#333;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    body{
+        padding: 0;
+        margin: 0;
+        font-family:cursive;
+        background-color: #37505C;
+        
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 25px;
+        color:#F2C14E;
+        padding: 50px;
+    
+    }
+    #sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    #games{
+        display: block;
+        justify-content: space-between;
+        gap:5rem;
+        
+    
+    }
+
+    #game1,
+    #game2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:2.5rem;
+    }
+    button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color:#F2C14E;
+        color: #333;
+        border-color:#F2C14E ;
+        font-size: 15px;
+        transition: 200ms transform;
+        font-weight: 600;
+    }
+    button:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+    }
+    button a{
+        text-decoration: none;
+        color:#333;
+        font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    body{
+        padding: 0;
+        margin: 0;
+        font-family:cursive;
+        background-color: #37505C;
+        
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 40px;
+        color:#F2C14E;
+        padding: 50px;
+    
+    }
+    #sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+    #games{
+        display: flex;
+        justify-content: space-between;
+        gap:20rem;
+        
+    
+    }
+    #game1,
+    #game2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color:#F2C14E;
+        color: #333;
+        border-color:#F2C14E ;
+        font-size: 18px;
+        transition: 200ms transform;
+        font-weight: 600;
+    }
+    button:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+    }
+    button a{
+        text-decoration: none;
+        color:#333;
+        font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    body{
+        padding: 0;
+        margin: 0;
+        font-family:cursive;
+        background-color: #37505C;
+        
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 70px;
+        color:#F2C14E;
+        padding: 50px;
+    
+    }
+    #sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5em;
+    }
+    #games{
+        display: flex;
+        justify-content: space-between;
+        gap:30rem;
+        
+    
+    }
+    #game1,
+    #game2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:1.5rem;
+    }
+    button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color:#F2C14E;
+        color: #333;
+        border-color:#F2C14E ;
+        font-size: 18px;
+        transition: 200ms transform;
+        font-weight: 600;
+    }
+    button:hover {
+        cursor: pointer;
+        transform: translateY(-1px);
+    }
+    button a{
+        text-decoration: none;
+        color:#333;
+        font-size: 18px;
+    }
+  }
